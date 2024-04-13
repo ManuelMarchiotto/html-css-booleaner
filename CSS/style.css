@@ -1,3 +1,50 @@
 * {
     margin: 0px;
 }
+
+.logo {
+    background-color: #9CD6F4;
+}
+
+.logo-booleaner {
+    height: 100px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+
+.titolo-principale {
+    font-size: 60px;
+    padding-top: 40px;
+}
+
+.intestazione {
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
+#nome {
+    color: #61AAFF;
+}
+
+.img {
+    height: 500px;
+}
+
+.testo-lungo {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.tabella {
+    width: 100%;
+    padding: 2% 1%;
+}
+
+.intestazione-tabella {
+    background-color: #7FA6FB;
+    color: white;
+}
+
+.riga-scura {
+    background-color: #DFE5F2;
+}

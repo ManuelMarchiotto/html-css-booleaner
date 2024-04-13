@@ -11,36 +11,33 @@
 <body>
 
     <!-- intestazione di pagina-->
-    <header>
-        <div class="logo">
-            <img src="IMG/logo.svg" alt="logo-booleaner" class="logo-Booleaner">
-
-        </div>
-
+    <header class="logo">
+        <img class="logo-booleaner" src="IMG/logo.svg" alt="logo-booleaner">
     </header>
     <!-- /intestazione di pagina-->
     <!-- corpo del documento-->
     <main>
-        <h1 class="titolo-principale">Internet deve essere al servizio del "bene pubblico": il manifesto di Tim
-            Berners-Lee</h1>
-
-        <section class="sottotitolo">
-            <p>Scritto da The Booleaner</p>
+        <section class="intestazione">
+            <h1 class="titolo-principale">Internet deve essere al servizio del "bene pubblico": il manifesto di Tim
+                Berners-Lee</h1>
+            <span>Scritto da </span>
+            <span id="nome">The Booleaner</span>
             <p>il 10/10/2020</p>
         </section>
 
-        <section class="img">
-            <img src="IMG/tim-1.jpg" alt="foto-1-Tim">
-            <img src="IMG/tim-2.jpg" alt="foto-2-Tim">
+        <section>
+            <img class="img" src="IMG/tim-1.jpg" alt="foto-1-Tim">
+            <img class="img" src="IMG/tim-2.jpg" alt="foto-2-Tim">
             <p>1st Photo: Jhon S. and James L.Knight Foundation, by Scott Henrichsen</p>
             <p>2nd Photo: Wikimedia, by Paul Clarke</p>
         </section>
 
         <section class="testo">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse sunt quibusdam nesciunt, cumque explicabo,
+            <p class="testo-lungo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse sunt quibusdam
+                nesciunt, cumque explicabo,
                 blanditiis tenetur temporibus modi eum ut quis eaque. Inventore corporis beatae error dolore cumque
                 ratione qui!</p>
-            <ul>
+            <ul class="elenco">
                 <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse sunt quibusdam nesciunt, cumque
                     explicabo</li>
                 <li>blanditiis tenetur temporibus modi eum ut quis eaque. Inventore corporis beatae error dolore cumque
@@ -51,7 +48,7 @@
         </section>
 
         <section>
-            <table>
+            <table class="tabella">
                 <thead class="intestazione-tabella">
                     <tr>
                         <th>Lorem ipsum dolor</th>
@@ -60,25 +57,31 @@
                     </tr>
                 </thead>
 
-                <tbody>
-                    <tr class="riga-scura">
-                        <th>Lorem ipsum dolor</th>
-                        <th>Lorem ipsum dolor</th>
-                        <th>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur maxime optio in nesciunt
+                <tbody class="corpo-tabella">
+                    <tr>
+                        <td class="riga-scura">Lorem ipsum dolor</th>
+                        <td class="riga-scura">Lorem ipsum dolor</th>
+                        <td class="riga-scura" id="riga-lunga-tabella">Lorem ipsum dolor sit amet consectetur,
+                            adipisicing elit. Pariatur maxime
+                            optio in nesciunt
                             quibusdam. Atque consectetur iure corporis natus ipsam voluptatem, ratione facilis
                             consequuntur. Fuga voluptas omnis dolorum magni nam?</th>
                     </tr>
-                    <tr class="riga-chiara">
-                        <th>Lorem ipsum dolor</th>
-                        <th>Lorem ipsum dolor</th>
-                        <th>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur maxime optio in nesciunt
+                    <tr>
+                        <td class="riga-chiara">Lorem ipsum dolor</th>
+                        <td class="riga-chiara">Lorem ipsum dolor</th>
+                        <td class="riga-chiara" id="riga-lunga-tabella-2">Lorem ipsum dolor sit amet consectetur,
+                            adipisicing elit. Pariatur
+                            maxime optio in nesciunt
                             quibusdam. Atque consectetur iure corporis natus ipsam voluptatem, ratione facilis
                             consequuntur. Fuga voluptas omnis dolorum magni nam?</th>
                     </tr>
-                    <tr class="riga-scura">
-                        <th>Lorem ipsum dolor</th>
-                        <th>Lorem ipsum dolor</th>
-                        <th>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur maxime optio in nesciunt
+                    <tr>
+                        <td class="riga-scura">Lorem ipsum dolor</th>
+                        <td class="riga-scura">Lorem ipsum dolor</th>
+                        <td class="riga-scura" id="riga-lunga-tabella-3">Lorem ipsum dolor sit amet consectetur,
+                            adipisicing elit. Pariatur maxime
+                            optio in nesciunt
                             quibusdam. Atque consectetur iure corporis natus ipsam voluptatem, ratione facilis
                             consequuntur. Fuga voluptas omnis dolorum magni nam?</th>
                     </tr>
