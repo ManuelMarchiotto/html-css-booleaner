@@ -4,6 +4,8 @@
 
 .logo {
     background-color: #9CD6F4;
+    padding-left: 20px;
+
 }
 
 .logo-booleaner {
@@ -15,11 +17,22 @@
 .titolo-principale {
     font-size: 60px;
     padding-top: 40px;
+
 }
 
 .intestazione {
     padding-bottom: 20px;
     padding-top: 30px;
+    padding-left: 20px;
+
+}
+
+.intestazione span {
+    color: #828190;
+}
+
+.intestazione p {
+    color: #828190;
 }
 
 #nome {
@@ -28,11 +41,19 @@
 
 .img {
     height: 500px;
+    padding-left: 20px;
+
+}
+
+section p {
+    padding-left: 20px;
 }
 
 .testo-lungo {
     padding-top: 20px;
     padding-bottom: 30px;
+    padding-left: 20px;
+
 }
 
 .tabella {
@@ -45,6 +66,19 @@
     color: white;
 }
 
+th {
+    width: 33%;
+    text-align: left;
+}
+
 .riga-scura {
     background-color: #DFE5F2;
+}
+
+.footer {
+    background-color: #313A6B;
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
